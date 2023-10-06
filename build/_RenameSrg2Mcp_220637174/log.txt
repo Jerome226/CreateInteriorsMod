@@ -1,0 +1,16 @@
+Java Launcher: C:\Users\comma\.gradle\jdks\adoptium-17-x64-hotspot-windows\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\comma\.gradle\caches\modules-2\files-2.1\curse.maven\create-328085\4371807\da80f8b9f49fc8ec7e84e9b339b0348cbc377069\create-328085-4371807.jar, --output, C:\Users\comma\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-328085\4371807_mapped_parchment_2022.08.07-1.18.2\create-328085-4371807_mapped_parchment_2022.08.07-1.18.2.jar, --mcp, C:\Users\comma\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.18.2\2022.08.07\parchment-1.18.2-2022.08.07.zip, --strip-signatures'
+Classpath:
+ - C:\Users\comma\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\comma\OneDrive\Documents\GitHub-Projects\CreateInteriorsMod\build\_RenameSrg2Mcp_220637174
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\comma\.gradle\caches\modules-2\files-2.1\curse.maven\create-328085\4371807\da80f8b9f49fc8ec7e84e9b339b0348cbc377069\create-328085-4371807.jar
+Output: C:\Users\comma\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\create-328085\4371807_mapped_parchment_2022.08.07-1.18.2\create-328085-4371807_mapped_parchment_2022.08.07-1.18.2.jar
+MCP:    C:\Users\comma\.gradle\caches\parchmentgradle\org\parchmentmc\data\parchment-1.18.2\2022.08.07\parchment-1.18.2-2022.08.07.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Stripped Manifest of sha digests
+Process complete

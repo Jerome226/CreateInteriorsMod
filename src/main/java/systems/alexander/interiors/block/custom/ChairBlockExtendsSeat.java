@@ -3,13 +3,13 @@ package systems.alexander.interiors.block.custom;
 import com.google.common.base.Optional;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.AllTags;
-import com.simibubi.create.content.contraptions.actors.seat.SeatBlock;
-import com.simibubi.create.content.contraptions.actors.seat.SeatEntity;
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
+import com.simibubi.create.foundation.config.AllConfigs;
+import com.simibubi.create.content.contraptions.components.actors.SeatBlock;
+import com.simibubi.create.content.contraptions.components.actors.SeatEntity;
+import com.simibubi.create.content.contraptions.wrench.IWrenchable;
 import com.simibubi.create.foundation.block.ProperWaterloggedBlock;
 import com.simibubi.create.foundation.utility.BlockHelper;
 import com.simibubi.create.foundation.utility.Lang;
-import com.simibubi.create.infrastructure.config.AllConfigs;
 import net.minecraft.MethodsReturnNonnullByDefault;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -187,12 +187,6 @@ public class ChairBlockExtendsSeat extends SeatBlock implements ProperWaterlogge
         if (passenger instanceof Shulker)
             return false;
         if (passenger instanceof Player)
-            return false;
-        if (AllTags.AllEntityTags.IGNORE_SEAT.matches(passenger))
-            return false;
-        if (!AllConfigs.server().logistics.seatHostileMobs.get() && !passenger.getType()
-                .getCategory()
-                .isFriendly())
             return false;
         return passenger instanceof LivingEntity;
     }

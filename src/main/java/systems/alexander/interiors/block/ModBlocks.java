@@ -1,8 +1,8 @@
 package systems.alexander.interiors.block;
 
-import com.simibubi.create.content.contraptions.actors.seat.SeatInteractionBehaviour;
-import com.simibubi.create.content.contraptions.actors.seat.SeatMovementBehaviour;
-import com.simibubi.create.content.redstone.displayLink.source.EntityNameDisplaySource;
+import com.simibubi.create.content.contraptions.components.actors.SeatInteractionBehaviour;
+import com.simibubi.create.content.contraptions.components.actors.SeatMovementBehaviour;
+import com.simibubi.create.content.logistics.block.display.source.EntityNameDisplaySource;
 import com.simibubi.create.foundation.block.DyedBlockList;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.tterrag.registrate.util.entry.RegistryEntry;
@@ -29,7 +29,7 @@ import java.util.function.Supplier;
 
 import static com.simibubi.create.AllInteractionBehaviours.interactionBehaviour;
 import static com.simibubi.create.AllMovementBehaviours.movementBehaviour;
-import static com.simibubi.create.content.redstone.displayLink.AllDisplayBehaviours.assignDataBehaviour;
+import static com.simibubi.create.content.logistics.block.display.AllDisplayBehaviours.assignDataBehaviour;
 import static com.simibubi.create.foundation.data.TagGen.axeOnly;
 import static systems.alexander.interiors.Interiors.REGISTRATE;
 

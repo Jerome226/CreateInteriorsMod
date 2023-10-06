@@ -1,8 +1,8 @@
 package systems.alexander.interiors.block.custom;
 
-import com.simibubi.create.content.contraptions.AbstractContraptionEntity;
-import com.simibubi.create.content.contraptions.Contraption;
-import com.simibubi.create.content.contraptions.actors.seat.SeatInteractionBehaviour;
+import com.simibubi.create.content.contraptions.components.structureMovement.AbstractContraptionEntity;
+import com.simibubi.create.content.contraptions.components.structureMovement.Contraption;
+import com.simibubi.create.content.contraptions.components.actors.SeatInteractionBehaviour;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 

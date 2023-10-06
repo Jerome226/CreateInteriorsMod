@@ -1,7 +1,7 @@
 package systems.alexander.interiors;
 
 import com.mojang.logging.LogUtils;
-import com.simibubi.create.foundation.item.TooltipModifier;
+import systems.alexander.interiors.item.TooltipModifier;
 import com.tterrag.registrate.Registrate;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;

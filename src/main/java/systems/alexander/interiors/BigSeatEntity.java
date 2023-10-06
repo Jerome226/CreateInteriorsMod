@@ -1,7 +1,7 @@
 package systems.alexander.interiors;
 
 import com.simibubi.create.AllEntityTypes;
-import com.simibubi.create.content.contraptions.actors.seat.SeatBlock;
+import com.simibubi.create.content.contraptions.components.actors.SeatBlock;
 import net.minecraft.client.renderer.culling.Frustum;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -41,7 +41,7 @@ public class BigSeatEntity extends Entity implements IEntityAdditionalSpawnData 
 
     public static EntityType.Builder<?> build(EntityType.Builder<?> builder) {
         @SuppressWarnings("unchecked")
-        EntityType.Builder<com.simibubi.create.content.contraptions.actors.seat.SeatEntity> entityBuilder = (EntityType.Builder<com.simibubi.create.content.contraptions.actors.seat.SeatEntity>) builder;
+        EntityType.Builder<com.simibubi.create.content.contraptions.components.actors.SeatEntity> entityBuilder = (EntityType.Builder<com.simibubi.create.content.contraptions.components.actors.SeatEntity>) builder;
         return entityBuilder.sized(0.25f, 0.85f);
     }
 
@@ -123,20 +123,20 @@ public class BigSeatEntity extends Entity implements IEntityAdditionalSpawnData 
         return (Packet<ClientGamePacketListener>) NetworkHooks.getEntitySpawningPacket(this);
     }
 
-    public static class Render extends EntityRenderer<com.simibubi.create.content.contraptions.actors.seat.SeatEntity> {
+    public static class Render extends EntityRenderer<com.simibubi.create.content.contraptions.components.actors.SeatEntity> {
 
         public Render(EntityRendererProvider.Context context) {
             super(context);
         }
 
         @Override
-        public boolean shouldRender(com.simibubi.create.content.contraptions.actors.seat.SeatEntity p_225626_1_, Frustum p_225626_2_, double p_225626_3_, double p_225626_5_,
+        public boolean shouldRender(com.simibubi.create.content.contraptions.components.actors.SeatEntity p_225626_1_, Frustum p_225626_2_, double p_225626_3_, double p_225626_5_,
                                     double p_225626_7_) {
             return false;
         }
 
         @Override
-        public ResourceLocation getTextureLocation(com.simibubi.create.content.contraptions.actors.seat.SeatEntity p_110775_1_) {
+        public ResourceLocation getTextureLocation(com.simibubi.create.content.contraptions.components.actors.SeatEntity p_110775_1_) {
             return null;
         }
     }

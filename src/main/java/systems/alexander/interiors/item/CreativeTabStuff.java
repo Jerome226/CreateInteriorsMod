@@ -1,6 +1,6 @@
 package systems.alexander.interiors.item;
 
-import com.simibubi.create.infrastructure.item.CreateCreativeModeTab;
+import systems.alexander.interiors.item.CreateCreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import systems.alexander.interiors.block.ModBlocks;
 

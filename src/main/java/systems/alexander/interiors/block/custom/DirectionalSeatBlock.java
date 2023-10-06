@@ -1,6 +1,6 @@
 package systems.alexander.interiors.block.custom;
 
-import com.simibubi.create.content.contraptions.actors.seat.SeatBlock;
+import com.simibubi.create.content.contraptions.components.actors.SeatBlock;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;

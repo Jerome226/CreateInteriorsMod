@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\comma\OneDrive\Documents\jdk-17.0.8.1+1\bin\java.exe
+Arguments: '--inJar, C:\Users\comma\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.4\forge-1.18.2-40.2.4-injected.jar, --outJar, C:\Users\comma\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.2.4_mapped_parchment_2022.08.07-1.18.2\forge-1.18.2-40.2.4_mapped_parchment_2022.08.07-1.18.2.jar, --logFile, accesstransform.log, --atFile, C:\Users\comma\Documents\GitHub-Projects\CreateInteriorsMod\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\comma\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Users\comma\Documents\GitHub-Projects\CreateInteriorsMod\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================
