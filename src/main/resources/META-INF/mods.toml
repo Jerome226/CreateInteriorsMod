@@ -39,6 +39,6 @@ versionRange = "[1.18,1.19)"
 [[dependencies.interiors]]
 modId="create"
 mandatory=true
-versionRange = "[0.5.1.e,)"
+versionRange = "[0.5.0.j,)"
 ordering="NONE"
 side="BOTH"
